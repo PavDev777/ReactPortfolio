@@ -23,7 +23,7 @@ function App() {
             <OurWork />
           </Route>
           <Route path="/work/:id">
-            <MovieDetail />
+            <MovieDetail /> 
           </Route>
           <Route path="/contact">
             <ContactUs />

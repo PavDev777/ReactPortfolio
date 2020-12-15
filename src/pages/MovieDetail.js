@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { MovieState } from "../movieState";
 import { pageAnimation } from "../animtaion";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const MovieDetail = () => {
   const history = useHistory();
